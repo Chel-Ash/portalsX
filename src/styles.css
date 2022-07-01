@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Creepster&family=Acme&family=Fredoka+One&family=Rubik+Beastly&family=Freckle+Face&family=Sedgwick+Ave&display=swap");
+
+html,
+body,
+#root,
+.bg,
+canvas {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #171717;
+}
+
+portal {
+  top: 220px;
+}
+
+.bg {
+  position: absolute;
+  background: radial-gradient(
+    at 50% 100%,
+    rgba(255, 123, 0, 0.226) 0%,
+    rgba(14, 130, 175, 0.144) 40%,
+    rgba(4, 88, 121, 0.144) 80%,
+    rgba(5, 40, 54, 0.144) 100%
+  );
+}
+
+* {
+  cursor: none;
+  hand: none;
+}
+
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 65px;
+
+  /* border-radius: 16px; */
+  /* background-color: white; */
+  /* mix-blend-mode: difference; */
+  z-index: 999;
+  pointer-events: none;
+}
+
+h1 {
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  font-family: "Freckle Face";
+  font-weight: 300;
+  font-size: 7em;
+  transform: translate3d(-50%, 0, 0);
+  margin: 0;
+  color: rgb(98, 208, 252);
+  line-height: 0.9em;
+  letter-spacing: -3px;
+  text-align: center;
+  z-index: 1;
+  pointer-events: none;
+}
+
+h1 > span {
+  white-space: pre;
+}
+
+.layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  background: linear-gradient(
+    0deg,
+    rgba(114, 14, 27, 0.308) 0%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+span.header {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  display: inline-block;
+  width: 500px;
+  transform: translate3d(0, -50%, 0);
+  font-size: 9em;
+  line-height: 0.9em;
+  pointer-events: none;
+  top: 350px;
+  left: 50px;
+}
+
+a {
+  font-family: "Freckle Face";
+  font-weight: 400;
+  font-size: 50px;
+  color: inherit;
+  position: absolute;
+  display: inline;
+  text-decoration: none;
+  z-index: 1;
+  color: #ff7a00;
+}
+
+.img1 {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 80px;
+}
+
+a.top-1 {
+  top: 60px;
+  right: 600px;
+  font-size: 40px;
+}
+
+a.top-2 {
+  top: 60px;
+  right: 420px;
+  font-size: 40px;
+}
+
+a.top-3 {
+  top: 60px;
+  right: 240px;
+  font-size: 40px;
+}
+
+a.top-right {
+  top: 60px;
+  right: 60px;
+  font-size: 40px;
+}
+
+.follow-us {
+  position: absolute;
+  pointer-events: none;
+  bottom: 100px;
+  left: 60px;
+  font-size: 30px;
+}
+
+.img2 {
+  position: absolute;
+  bottom: 45px;
+  left: 60px;
+  width: 40px;
+  cursor: none;
+}
+
+.img3 {
+  position: absolute;
+  bottom: 45px;
+  left: 120px;
+  width: 40px;
+  cursor: none;
+}
+
+.img4 {
+  position: absolute;
+  bottom: 45px;
+  left: 180px;
+  width: 40px;
+  cursor: none;
+}
+
+a.bottom-left {
+  bottom: 50px;
+  left: 60px;
+  font-size: 25px;
+}
+
+.switch {
+  font-family: "Acme";
+  font-weight: 400;
+  font-size: 40px;
+  color: inherit;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(230, 105, 22, 0.856) 100%,
+    transparent 100%
+  );
+  border-radius: 8px;
+  border: none;
+  left: 43%;
+  bottom: 5%;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+/* ABOUT PAGE STYLING */
+
+.about-bg {
+  width: 80%;
+  height: 50%;
+  position: absolute;
+  background-color: #ff7a00;
+}
